@@ -27,6 +27,12 @@ h2 {
 .coral {
   background-color: orange;
 }
+.uppercase {
+  text-transform: uppercase;
+}
+.orange {
+  color: orange;
+}
 
 .purple-blue {
   background: linear-gradient(to right, #6023ea, #069af3);
@@ -75,16 +81,17 @@ a.button:visited {
 }
 
 section {
-  padding: 70px 0px;
+  padding: 70px 0px 90px 0px;
 }
 .dream {
   /* background: linear-gradient(#6023ea, #069af3); */
-  background-color: #f2f2f2;
+  background-color: rgba(242, 242, 242, 0.39);
 }
 
 .half-width {
   width: 45%;
-  margin-left: 5%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
 }
 .dream-text {
   border-left: 10px solid;
@@ -112,4 +119,30 @@ a.about-btn:visited {
   background-image: linear-gradient(to right, coral, orange);
   padding: 20px 55px;
   margin-top: 20px;
+}
+
+.skill h1,
+.skill > p {
+  font-weight: bold;
+}
+.skill > p {
+  padding: 0 25%;
+  margin-bottom: 2.5em;
+}
+.skills-content {
+  margin-bottom: 2.5em;
+}
+.card {
+  background: linear-gradient(to right top, #6023ea, #069af3);
+  color: white;
+  height: auto;
+  padding: 25px;
+  border-radius: 12px;
+}
+.card:first-child {
+  font-weight: bold;
+}
+.card h3 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
