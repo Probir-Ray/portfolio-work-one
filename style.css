@@ -3,7 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 p {
-  line-height: 150%;
+  line-height: 170%;
 }
 .flex {
   display: flex;
@@ -28,8 +28,8 @@ h2 {
   background-color: orange;
 }
 
-.darkorange {
-  background-color: #6023ea;
+.purple-blue {
+  background: linear-gradient(to right, #6023ea, #069af3);
 }
 .white {
   color: white;
@@ -65,7 +65,7 @@ img {
 a.button:link,
 a.button:visited {
   text-decoration: none;
-  background-color: #6023ea;
+  background-image: linear-gradient(to bottom, #6023ea, #069af3);
   color: #fff;
   padding: 20px 55px;
   display: inline-block;
@@ -78,7 +78,8 @@ section {
   padding: 70px 0px;
 }
 .dream {
-  background-color: #f2f2f2;
+  background: linear-gradient(#6023ea, #069af3);
+  color: #ffffff;
 }
 
 .half-width {
@@ -89,11 +90,10 @@ section {
 }
 .dream-text {
   border-left: 10px solid;
-  border-image: linear-gradient(coral, orange) 2;
+  border-image: linear-gradient(#f2f2f2, #f9f9f9) 2;
   padding-left: 15px;
 }
 .dream-text h2,
 .dream h1 {
-  color: orange;
   margin-top: 8px;
 }
